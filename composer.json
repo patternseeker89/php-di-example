@@ -1,0 +1,17 @@
+{
+    "name": "porfirovskiy/php-di-example",
+    "type": "project",
+    "authors": [
+        {
+            "name": "porfirovskiy",
+            "email": "porfirovskiy@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php-di/php-di": "dev-master"
+    },
+    "autoload": {
+        "psr-4": { "App\\": "src"}
+    }
+}
